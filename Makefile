@@ -7,5 +7,8 @@ all:
 ssh:
 		docker-compose exec app bash
 
+ps:
+		docker-compose ps
+
 clean:
 		docker-compose down
